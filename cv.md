@@ -32,3 +32,111 @@ Discord: ТатьянаШу#2957
 
 gitHub: [TatyanaShu](https://github.com/TatyanaShu?tab=repositories "github TatyanaShu")
 
+
+**********************
+
+### **Skills:**
+
+
+* HTML5.0
+* CSS3.0/SCSS
+* JavaScript (Basic)
+* jQuery
+* PHP (Basic)
+* CMS (Joomla, Wordpress)
+* Graphic programs (Photoshop, Adobe Illustrator, Figma, Corel Draw, Adobe Animate)
+* Git (Basic)
+
+### **Language**
++ English (A2)
++ Russian (native)
++ Belarussian (native)
+
+### **Education**
+University: 
+
+
++ Institute of Business of BSU, web-design 2020-2021
++ Belarussian State Tecnologycal University, engineer of certification and standardization 2006-2013
+
+
+
+****************
+### **Example code:**
+
+```
+_//счетчик  цифр на 2 странице_
+const timeCount = 10000,
+  step = 20;
+function outNum(num, elem) {
+  let numb = document.querySelector("#" + elem);
+  n = 0;
+  let timeView = Math.round(timeCount / (num / step));
+  let interval = setInterval(() => {
+    n<num? (n += step): clearInterval(interval);
+    numb.innerHTML = n;
+  }, timeView);
+}
+_// валидация формы регистрации_
+function validate() {
+  let errList=document.querySelectorAll ("span");
+  let userName=document.getElementById('userName');
+  console.log(userName);
+  let userPhone=document.getElementById('userTelephone');
+let item=document.createElement("span"); 
+item.innerHTML ="Поле обязательно для заполнения";
+  for (let i= errList.length-1; i>=0; i--) {
+        errList[i].remove();
+    }
+    if (!userName.value){
+    userName.classList.add("errorList");
+    userName.parentNode.insertBefore(item,userName.nextSibling);
+    return false;
+    } else{
+    userName.classList.remove("errorList");
+    item.remove();
+  }
+  if (!userPhone.value){
+    userPhone.classList.add("errorList");
+    userPhone.parentNode.insertBefore(item,userPhone.nextSibling);
+    return false;
+  }
+  else{
+    userPhone.classList.remove("errorList");
+    item.remove();
+  }
+    
+    form=document.entered;
+    let login=isFullText(userName);
+    let phone=isPhone(userPhone);
+    return login&& phone;
+}
+function isFullText(fieldInp) {
+  var letters = /^[A-Za-z]+$|^[А-Яа-я]+$/;
+
+  if (fieldInp.value.match(letters)) {
+    fieldInp.className = fieldInp.className.replace("alert", "");
+    return true;
+  } else {
+    fieldInp.className = "alert";
+    var item = document.createElement("span");
+    item.innerHTML = "Имя должно состоять из букв латиницы или кириллицы";
+    fieldInp.parentNode.insertBefore(item, fieldInp.nextSibling);
+    return false;
+  }
+}
+
+function isPhone(userPhone) {
+  var pattern = /^(\+\d{3})(\d{2})(\d{3})(\d{2})(\d{2})$/;
+  if (userPhone.value.match(pattern)) {
+    userPhone.className = userPhone.className.replace("alert", "");
+    return true;
+  } else {
+    userPhone.className = "alert";
+    var item = document.createElement("span");
+    item.innerHTML = "Телефон должен быть формата +375...";
+    userPhone.parentNode.insertBefore(item, userPhone.nextSibling);
+    return false;
+  }
+}
+```
