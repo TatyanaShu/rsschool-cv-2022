@@ -11,4 +11,5 @@ When i studied in university i did  some project to company of certification and
 I am learning English. I graduated some curses of English as: elementary and pre-intermediate levels. 
 I like to study and learn something new. I like to work and see the results of my work.
 I have good interpersonal skills and very willing to learn and develop new skills. I am reliable and dependable and often seek new responsibilities within a wide range of employment areas. I don't stop in my development. I am always searching new usefull information and trying to use it.  
-
+Nowadays i changed my job. I am working as a administrator of CRM sistem. What i do on my new job?
+I am writting some trigges, control how it works. I help sellers with their everyday  job.  Sometimes i can make some changes on web-site, which connect with CRM sistem.
