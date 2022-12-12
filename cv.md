@@ -13,3 +13,22 @@ I like to study and learn something new. I like to work and see the results of m
 I have good interpersonal skills and very willing to learn and develop new skills. I am reliable and dependable and often seek new responsibilities within a wide range of employment areas. I don't stop in my development. I am always searching new usefull information and trying to use it.  
 Nowadays i changed my job. I am working as a administrator of CRM sistem. What i do on my new job?
 I am writting some trigges, control how it works. I help sellers with their everyday  job.  Sometimes i can make some changes on web-site, which connect with CRM sistem.
+
+
+**************
+
+### **Contact information:**
+Phone: +375-29-863-88-11
+
+
+E-mail: tashu529@gmail.com
+
+
+Telegram: Татьяна
+
+
+Discord: ТатьянаШу#2957
+
+
+gitHub: [TatyanaShu](https://github.com/TatyanaShu?tab=repositories "github TatyanaShu")
+
